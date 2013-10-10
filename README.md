@@ -34,4 +34,10 @@ List of features not implement in this exercise:
 4. Admin is able to tag products with comma-separated keywords.
 
 
-P.S.: Not so nice layout and css, wasn't spend too much time on that.
+Information:
+===========
+1. Please restore the db file inside the db folder.
+
+2. Username: Admin | Password: 123
+
+P.S.: Not so nice the layout and the css design, wasn't spend too much time on that.
