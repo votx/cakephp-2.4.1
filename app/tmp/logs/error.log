@@ -1,0 +1,907 @@
+2013-10-05 14:06:32 Error: Fatal Error (4): syntax error, unexpected 'die' (T_EXIT), expecting function (T_FUNCTION) in [D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\AppController.php, line 36]
+2013-10-05 14:06:32 Error: [FatalErrorException] syntax error, unexpected 'die' (T_EXIT), expecting function (T_FUNCTION)
+Request URL: /cakephp-2.4.1/
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Work & Devel...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Work & Devel...', 36, Array)
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Work & Devel...', 36, Array)
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-05 14:06:49 Error: Fatal Error (4): syntax error, unexpected 'exit' (T_EXIT), expecting function (T_FUNCTION) in [D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\AppController.php, line 36]
+2013-10-05 14:06:49 Error: [FatalErrorException] syntax error, unexpected 'exit' (T_EXIT), expecting function (T_FUNCTION)
+Request URL: /cakephp-2.4.1/
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Work & Devel...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Work & Devel...', 36, Array)
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Work & Devel...', 36, Array)
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-05 14:27:53 Error: [MissingViewException] View file "D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\Work & Development\\Web Design & Development\\EasyPHP-12.1\\www\\cakephp-2.4.1\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /cakephp-2.4.1/pages/display
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\View\View.php(459): View->_getViewFileName('display')
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(952): View->render('display', NULL)
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\PagesController.php(70): Controller->render('display')
+#3 [internal function]: PagesController->display('display')
+#4 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-10-05 14:29:58 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /cakephp-2.4.1/posts/display
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-05 14:30:05 Error: [MissingActionException] Action PostsController::1243() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => '1243',
+)
+Request URL: /cakephp-2.4.1/posts/1243
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-05 14:31:04 Error: [MissingActionException] Action PostsController::4234'() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => '4234\'',
+)
+Request URL: /cakephp-2.4.1/posts/4234%27
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-05 14:31:22 Error: [MissingViewException] View file "D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\View\Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\Work & Development\\Web Design & Development\\EasyPHP-12.1\\www\\cakephp-2.4.1\\app\\View\\Posts\\index.ctp',
+)
+Request URL: /cakephp-2.4.1/posts
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-05 17:35:59 Error: [MissingViewException] View file "D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\View\Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\Work & Development\\Web Design & Development\\EasyPHP-12.1\\www\\cakephp-2.4.1\\app\\View\\Posts\\index.ctp',
+)
+Request URL: /cakephp-2.4.1/posts
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-05 17:42:00 Error: [MissingViewException] View file "D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\View\Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\Work & Development\\Web Design & Development\\EasyPHP-12.1\\www\\cakephp-2.4.1\\app\\View\\Posts\\index.ctp',
+)
+Request URL: /cakephp-2.4.1/posts/index
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-06 08:56:14 Error: [NotFoundException] Invalid post
+Request URL: /cakephp-2.4.1/posts/edit/
+Stack Trace:
+#0 [internal function]: PostsController->edit()
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-06 11:47:32 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp-2.4.1/users/
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-06 13:34:33 Error: Fatal Error (4): syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in [D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\PostsController.php, line 120]
+2013-10-06 13:34:33 Error: [FatalErrorException] syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING)
+Request URL: /cakephp-2.4.1/
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Work & Devel...', 120)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Work & Devel...', 120, Array)
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Work & Devel...', 120, Array)
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-06 13:57:44 Error: [MissingActionException] Action PostsController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'login',
+)
+Request URL: /cakephp-2.4.1/posts/login
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-06 14:14:28 Error: [MissingActionException] Action UsersController::posts() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'posts',
+)
+Request URL: /cakephp-2.4.1/users/posts/index
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-10-06 18:36:57 Error: Fatal Error (4): syntax error, unexpected 'exit' (T_EXIT) in [D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\UsersController.php, line 24]
+2013-10-06 18:36:57 Error: [FatalErrorException] syntax error, unexpected 'exit' (T_EXIT)
+Request URL: /cakephp-2.4.1/users/logout
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Work & Devel...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Work & Devel...', 24, Array)
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Work & Devel...', 24, Array)
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-06 18:39:08 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\UsersController.php, line 23]
+2013-10-06 18:39:08 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /cakephp-2.4.1/users/logout
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Work & Devel...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Work & Devel...', 23, Array)
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Work & Devel...', 23, Array)
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-06 18:58:02 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\PostsController.php, line 4]
+2013-10-06 18:58:02 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephp-2.4.1/posts/user
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Work & Devel...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Work & Devel...', 4, Array)
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Work & Devel...', 4, Array)
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-07 18:11:13 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+',
+  'enabled' => true,
+)
+Request URL: /cakephp-2.4.1/
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(262): Mysql->connect()
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(3288): ConnectionManager::getDataSource('default')
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#4 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(3310): Model->setSource('posts')
+#5 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(2750): Model->getDataSource()
+#6 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#7 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\PostsController.php(33): Model->find('all')
+#8 [internal function]: PostsController->page()
+#9 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-10-07 18:11:13 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+',
+  'enabled' => true,
+)
+Request URL: /cakephp-2.4.1/
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(262): Mysql->connect()
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(3288): ConnectionManager::getDataSource('default')
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#4 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(3310): Model->setSource('posts')
+#5 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(2750): Model->getDataSource()
+#6 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#7 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\PostsController.php(33): Model->find('all')
+#8 [internal function]: PostsController->page()
+#9 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-10-07 18:39:18 Error: [MissingHelperException] Helper class authHelper could not be found.
+Exception Attributes: array (
+  'class' => 'authHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.4.1/users/edit/3
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('auth')
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\View\View.php(820): HelperCollection->__isset('auth')
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\View\Users\edit.ctp(9): View->__get('auth')
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\View\View.php(931): include('D:\Work & Devel...')
+#4 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\View\View.php(893): View->_evaluate('D:\Work & Devel...', Array)
+#5 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\View\View.php(462): View->_render('D:\Work & Devel...')
+#6 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#7 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#8 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-10-08 05:07:05 Error: [NotFoundException] Invalid post
+Request URL: /cakephp-2.4.1/posts/view/4
+Stack Trace:
+#0 [internal function]: PostsController->view('4')
+#1 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-08 05:55:21 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-08 05:55:38 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 33]
+2013-10-08 05:55:38 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp-2.4.1/
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 33, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 33, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-08 05:56:36 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/posts/index
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-08 05:57:56 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/posts/page
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-08 05:59:06 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/posts/page
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-08 06:02:15 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/posts/page
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-08 06:03:04 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 44]
+2013-10-08 06:03:04 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp-2.4.1/products
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 44, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 44, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-08 06:14:25 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/posts/page
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-08 14:05:14 Error: [MissingTableException] Table products for model Product was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'products',
+  'class' => 'Product',
+  'ds' => 'default',
+)
+Request URL: /cakephp-2.4.1/
+Stack Trace:
+#0 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(3310): Model->setSource('products')
+#1 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(2750): Model->getDataSource()
+#2 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#3 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php(33): Model->find('all')
+#4 [internal function]: ProductsController->page()
+#5 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#6 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#7 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#8 D:\Work & Development\Web Design & Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-10-09 06:47:36 Error: [MissingComponentException] Component class JqImgcropComponent could not be found.
+Exception Attributes: array (
+  'class' => 'JqImgcropComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('JqImgcrop', Array)
+#1 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ProductsController))
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-09 06:49:33 Error: [MissingComponentException] Component class JqImgcropComponent could not be found.
+Exception Attributes: array (
+  'class' => 'JqImgcropComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('JqImgcrop', Array)
+#1 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ProductsController))
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-09 07:22:29 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\View\View.php(869): HelperCollection->load('Javascript', Array)
+#1 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\View\View.php(343): View->loadHelpers()
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(ProductsController))
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#5 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#6 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-10-09 07:23:26 Error: Fatal Error (1): Call to a member function create() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\View\Products\add.ctp, line 3]
+2013-10-09 07:23:26 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 3, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 3, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-09 07:38:29 Error: Fatal Error (1): Call to a member function create() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\View\Products\add.ctp, line 3]
+2013-10-09 07:38:29 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 3, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 3, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-09 09:15:04 Error: Fatal Error (1): Call to a member function uploadImage() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 85]
+2013-10-09 09:15:04 Error: [FatalErrorException] Call to a member function uploadImage() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 85, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 85, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-09 11:05:57 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastInsertId' at line 1
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('lastInsertId', Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('lastInsertId', Array, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(611): DboSource->fetchAll('lastInsertId', Array, Array)
+#4 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(799): DboSource->query('lastInsertId', Array, Object(Product))
+#5 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php(127): Model->__call('lastInsertId', Array)
+#6 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php(127): Product->lastInsertId()
+#7 [internal function]: ProductsController->add()
+#8 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-10-09 11:11:33 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 177]
+2013-10-09 11:11:33 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 177)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 177, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 177, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-09 11:14:02 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 177]
+2013-10-09 11:14:02 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 177)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 177, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 177, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-09 11:15:18 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 177]
+2013-10-09 11:15:18 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 177)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 177, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 177, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-09 11:17:30 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 177]
+2013-10-09 11:17:30 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 177)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 177, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 177, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-09 11:18:22 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 177]
+2013-10-09 11:18:22 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 177)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 177, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 177, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-09 11:19:17 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 177]
+2013-10-09 11:19:17 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 177)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 177, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 177, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 04:08:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/img/WWW_DIRimg/close_cancel.png
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 04:18:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/img/img/close_cancel.png
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 04:18:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/img/img/close_cancel.png
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 04:34:31 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 188]
+2013-10-10 04:34:31 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 188)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 188, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 188, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 05:11:02 Error: Fatal Error (1): Class 'Folder' not found in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 154]
+2013-10-10 05:11:02 Error: [FatalErrorException] Class 'Folder' not found
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'Folder' ...', 'D:\Development\...', 154)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Folder' ...', 'D:\Development\...', 154, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Folder' ...', 'D:\Development\...', 154, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 05:12:13 Error: Fatal Error (1): Call to a member function create() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 182]
+2013-10-10 05:12:13 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 182)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 182, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 182, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 05:14:50 Error: Fatal Error (1): Call to a member function create() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 182]
+2013-10-10 05:14:50 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 182)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 182, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 182, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 05:18:42 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 188]
+2013-10-10 05:18:42 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 188)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 188, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 188, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 05:28:11 Error: Fatal Error (1): Call to a member function create() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 182]
+2013-10-10 05:28:11 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 182)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 182, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 182, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 05:28:32 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 188]
+2013-10-10 05:28:32 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 188)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 188, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 188, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 05:33:00 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 188]
+2013-10-10 05:33:00 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 188)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 188, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 188, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 05:35:06 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 189]
+2013-10-10 05:35:06 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 189)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 189, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 189, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 05:36:58 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 196]
+2013-10-10 05:36:58 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 196)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 196, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 196, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 05:49:22 Error: Fatal Error (1): Call to a member function url() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 85]
+2013-10-10 05:49:22 Error: [FatalErrorException] Call to a member function url() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 85, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 85, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 05:50:06 Error: Fatal Error (1): Class 'Html' not found in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 85]
+2013-10-10 05:50:06 Error: [FatalErrorException] Class 'Html' not found
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'Html' no...', 'D:\Development\...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Html' no...', 'D:\Development\...', 85, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Html' no...', 'D:\Development\...', 85, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 05:50:28 Error: Fatal Error (1): Call to a member function url() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 85]
+2013-10-10 05:50:28 Error: [FatalErrorException] Call to a member function url() on a non-object
+Request URL: /cakephp-2.4.1/products/add
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 85, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 85, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 07:07:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Productimages.product_id' in 'where clause'
+Request URL: /cakephp-2.4.1/products/edit/48
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Product...', Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Product...', Array, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Product...', false)
+#4 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Product), Array)
+#5 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#6 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php(232): Model->find('all', Array)
+#7 [internal function]: ProductsController->edit('48')
+#8 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-10-10 07:10:09 Error: Fatal Error (1): Call to undefined function img() in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\View\Products\edit.ctp, line 29]
+2013-10-10 07:10:09 Error: [FatalErrorException] Call to undefined function img()
+Request URL: /cakephp-2.4.1/products/edit/48
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'D:\Development\...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'D:\Development\...', 29, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'D:\Development\...', 29, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 07:16:03 Error: Fatal Error (4): syntax error, unexpected '<' in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\View\Products\edit.ctp, line 34]
+2013-10-10 07:16:03 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakephp-2.4.1/products/edit/48
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Development\...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Development\...', 34, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Development\...', 34, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 09:00:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/img/img/upload/44c5281f1d7d820d75fa89803f72b7f3.jpg
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 09:00:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/img/img/upload/7c9653aed943bfeeb7feff5bbdc45c59.jpg
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 09:00:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/img/img/upload/64754ec7f101fda09dd34eafd1198eaf.jpg
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 09:00:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/img/img/upload/64754ec7f101fda09dd34eafd1198eaf.jpg
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 09:01:03 Error: [MissingControllerException] Controller class UploadController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/upload/44c5281f1d7d820d75fa89803f72b7f3.jpg
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 09:01:03 Error: [MissingControllerException] Controller class UploadController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/upload/64754ec7f101fda09dd34eafd1198eaf.jpg
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 09:01:03 Error: [MissingControllerException] Controller class UploadController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/upload/7c9653aed943bfeeb7feff5bbdc45c59.jpg
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 09:01:07 Error: [MissingControllerException] Controller class UploadController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/upload/64754ec7f101fda09dd34eafd1198eaf.jpg
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 09:16:48 Error: [MissingControllerException] Controller class Cakephp-2.4.1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Cakephp-2.4.1Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/cakephp-2.4.1/fancybox/jquery.fancybox.js
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 09:16:48 Error: [MissingControllerException] Controller class Cakephp-2.4.1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Cakephp-2.4.1Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/cakephp-2.4.1/fancybox/jquery.fancybox.css
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 09:41:23 Error: [NotFoundException] Invalid product
+Request URL: /cakephp-2.4.1/products/edit/48
+Stack Trace:
+#0 [internal function]: ProductsController->edit('48')
+#1 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-10 09:42:29 Error: [MissingControllerException] Controller class UploadController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/upload/44badb6f4143526f37eb145577e483a7.jpg
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 09:42:35 Error: [MissingControllerException] Controller class UploadController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/upload/44badb6f4143526f37eb145577e483a7.jpg
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 09:43:01 Error: [MissingControllerException] Controller class UploadController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.1/upload/44badb6f4143526f37eb145577e483a7.jpg
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-10 09:50:35 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'product_id' cannot be null
+Request URL: /cakephp-2.4.1/products/edit/52
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(1761): DboSource->create(Object(AppModel), Array, Array)
+#4 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php(282): Model->save(Array)
+#5 [internal function]: ProductsController->edit('52')
+#6 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#7 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#9 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-10-10 09:57:48 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 332]
+2013-10-10 09:57:48 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp-2.4.1/products/delete/52
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 332)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 332, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 332, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 10:26:17 Error: Fatal Error (1): Class 'PaginatorHelper' not found in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\View\Products\page.ctp, line 5]
+2013-10-10 10:26:17 Error: [FatalErrorException] Class 'PaginatorHelper' not found
+Request URL: /cakephp-2.4.1/
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'Paginato...', 'D:\Development\...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Paginato...', 'D:\Development\...', 5, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Paginato...', 'D:\Development\...', 5, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 11:14:13 Error: Fatal Error (1): Call to a member function create() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 82]
+2013-10-10 11:14:13 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp-2.4.1/products/view/56
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 82)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 82, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 82, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 11:15:17 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 106]
+2013-10-10 11:15:17 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp-2.4.1/products/view/56
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 106)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 106, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 106, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 11:16:31 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php, line 106]
+2013-10-10 11:16:31 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp-2.4.1/products/view/56
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 106)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 106, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 106, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-10 11:17:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comments.product_id' in 'where clause'
+Request URL: /cakephp-2.4.1/products/view/56
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Comment...', false)
+#4 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(2750): DboSource->read(Object(Comment), Array)
+#5 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#6 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\Controller\ProductsController.php(108): Model->find('all', Array)
+#7 [internal function]: ProductsController->view('56')
+#8 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-10-10 11:28:11 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\app\View\Products\view.ctp, line 43]
+2013-10-10 11:28:11 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /cakephp-2.4.1/products/view/56
+Stack Trace:
+#0 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Development\...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Development\...', 43, Array)
+#2 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Development\...', 43, Array)
+#3 D:\Development\EasyPHP-12.1\www\cakephp-2.4.1\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
